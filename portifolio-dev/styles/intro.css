@@ -1,0 +1,134 @@
+.intro {
+  position: relative;
+  background-image: url("../assets/Background_Intro.png");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 750px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  gap: 56px;
+  max-width: 1040px;
+}
+
+.info-avatar {
+  position: relative;
+  width: 112px;
+  height: 112px;
+}
+
+.info-avatar img:nth-child(1) {
+  width: 96px;
+  height: 96px;
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid var(--red);
+}
+
+.info-avatar img:nth-child(2) {
+  position: absolute;
+  right: 0;
+  bottom: 18px;
+  width: 32px;
+  height: 32px;
+}
+
+.subtitle {
+  font: var(--text-subtitle);
+  color: var(--gray-200);
+  margin-bottom: 8px;
+}
+
+.subtitle span {
+  color: var(--red);
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 680px;
+  max-height: 327px;
+}
+
+.info-text h1 {
+  font: var(--title-lg);
+  color: var(--gray-100);
+  margin-bottom: 20px;
+}
+
+.description {
+  font: var(--text-sm);
+  color: var(--gray-300);
+}
+
+.info-tech {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  max-width: 754px;
+  max-height: 40px;
+}
+
+.tech-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--gray-400);
+  font: var(--text-md);
+  color: var(--gray-200);
+}
+
+.tech-item img {
+  width: 20px;
+  height: 20px;
+  gap: 8px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 20px;
+}
+
+.scroll-down img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.7;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+}
+
+.icon-html {
+  width: 24px;
+  height: 24px;
+  background-color: #ff5722;
+
+  -webkit-mask: url("assets/icons/HTML.svg") no-repeat center;
+  mask: url("assets/icons/HTML.svg") no-repeat center;
+}
