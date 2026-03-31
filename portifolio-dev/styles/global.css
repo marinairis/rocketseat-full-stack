@@ -30,3 +30,9 @@
   --text-md: 400 16px/140% var(--font-family-sub-tex);
   --text-sm: 400 14px/140% var(--font-family-sub-tex);;
 }
+
+.container {
+  padding-inline: 32px;
+  min-width: 1366px;
+  margin-inline: auto;
+}
