@@ -17,3 +17,24 @@ O layout do projeto foi criado no Figma e pode ser acessado através do link aba
 - **HTML5**: Para a estruturação da página.
 - **CSS3**: Para a estilização e design.
 - **Figma**: Para a visualização do layout e referência de design.
+
+## 💻 Executar o projeto
+
+Você pode rodar este projeto de 3 formas:
+
+**1. Live Server (recomendado)**
+
+- Instale a extensão Live Server no VS Code
+- Clique com o botão direito no `index.html`
+- Selecione **Open with Live Server**
+
+**2. Outra extensão (ex: Five Server)**
+
+- Instale a extensão
+- Abra o `index.html` com a extensão
+
+**3. Manualmente**
+
+- Abra o arquivo `index.html` direto no navegador
+
+> Recomenda-se usar Live Server para evitar problemas com caminhos de arquivos.

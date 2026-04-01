@@ -1,16 +1,16 @@
-# Página de Receitas
+# Desafio Portfólio Dev
 
-Este projeto foi desenvolvido durante a aula da Rocketseat, onde colocamos em prática os conceitos de **HTML** e **CSS** para criar uma página de receitas. O design do projeto foi baseado no layout disponível no Figma.
+Este projeto foi desenvolvido durante a aula da Rocketseat, onde colocamos em prática os conceitos de **HTML** e **CSS** para criar um portfólio dev. O design do projeto foi baseado no layout disponível no Figma.
 
 ## 📌 Sobre o Projeto
 
-O objetivo deste projeto foi aplicar os conhecimentos adquiridos no **Nível 3** da Rocketseat, focando na estruturação de páginas com **HTML** e na estilização com **CSS**. O resultado é uma página de receitas responsiva e visualmente atraente.
+O objetivo deste projeto foi aplicar os conhecimentos adquiridos no **Nível 1** ao **Nível 5** da Rocketseat, focando na estruturação de páginas com **HTML** e na estilização com **CSS**. O resultado é uma página de perfil de viagens responsiva e visualmente atraente. Foi criado com 100% de base no protótipo do Figma.
 
 ## 🎨 Layout do Projeto
 
 O layout do projeto foi criado no Figma e pode ser acessado através do link abaixo:
 
-[🔗 Acessar Layout no Figma](https://www.figma.com/community/file/1360315130061454535)
+[🔗 Acessar Layout no Figma](https://www.figma.com/community/file/1387080701963671866)
 
 ## 🛠️ Tecnologias Utilizadas
 
