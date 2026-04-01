@@ -32,10 +32,34 @@
 }
 
 .container {
-min-width: 1366px;
+  min-width: 1366px;
 }
 
 span {
   font: var(--text-subtitle);
   color: var(--red);
+  margin-bottom: 8px;
+}
+
+h2 {
+  font: var(--title-md);
+  color: var(--gray-100);
+}
+
+.card h3 {
+  font: var(--title-sm);
+  color: var(--gray-100);
+  margin-bottom: 8px;
+}
+
+.card p {
+  font: var(--text-sm);
+  color: var(--gray-200);
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 56px;
 }

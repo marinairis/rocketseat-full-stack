@@ -1,0 +1,29 @@
+.service {
+  background-color: var(--gray-600);
+  min-height: 480px;
+
+  padding: 88px 120px 120px 144px;
+  margin-inline: auto;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.service-card {
+  width: 280px;
+  height: 155px;
+  padding: 20px;
+
+  border: 1px solid var(--gray-500);
+  border-radius: 16px;
+}
+
+.service-card img {
+  width: 48px;
+  height: 48px;
+  display: block;
+  margin-bottom: 20px;
+}
