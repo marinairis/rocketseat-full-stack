@@ -115,6 +115,11 @@
   animation: bounce 2s infinite;
 }
 
+.custom-span {
+  font: var(--text-subtitle);
+  color: var(--red);
+}
+
 @keyframes bounce {
   0%,
   100% {
