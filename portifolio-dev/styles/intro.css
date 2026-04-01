@@ -52,8 +52,9 @@
   margin-bottom: 8px;
 }
 
-.subtitle span {
-  color: var(--red);
+.info-tech span {
+  font: var(--text-md);
+  color: var(--gray-200);
 }
 
 .info-text {
@@ -122,13 +123,4 @@
   50% {
     transform: translateY(8px);
   }
-}
-
-.icon-html {
-  width: 24px;
-  height: 24px;
-  background-color: #ff5722;
-
-  -webkit-mask: url("assets/icons/HTML.svg") no-repeat center;
-  mask: url("assets/icons/HTML.svg") no-repeat center;
 }

@@ -32,5 +32,10 @@
 }
 
 .container {
-  min-width: 1366px;
+min-width: 1366px;
+}
+
+span {
+  font: var(--text-subtitle);
+  color: var(--red);
 }
